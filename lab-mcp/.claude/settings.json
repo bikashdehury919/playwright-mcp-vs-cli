@@ -1,0 +1,10 @@
+{
+  "enableAllProjectMcpServers": true,
+  "permissions": {
+    "allow": [
+      "mcp__playwright",
+      "Bash(npx playwright test:*)",
+      "Edit"
+    ]
+  }
+}

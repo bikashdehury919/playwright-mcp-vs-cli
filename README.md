@@ -9,7 +9,7 @@ I wanted numbers from my own machine. So I set up two identical Playwright proje
 
 | Scenario | What the agent had to do | Cost MCP | Cost CLI | Quality | Winner |
 |---|---|---|---|---|---|
-| S1 Self-heal | Fix 2 broken locators after a UI change | **$0.30** | $0.33 | MCP: 2/2 green, fixed only the 2 broken locators. CLI: [fill] | MCP (small margin) |
+| S1 Self-heal | Fix 2 broken locators after a UI change | **$0.30** | $0.33 | MCP: 2/2 green, fixed only the 2 broken locators. CLI: 2 | MCP (small margin) |
 | S2 Exploratory | Find bugs as `problem_user` | $0.99 | **$0.91** | MCP 8 findings, CLI 14 (all 8 of MCP's plus 6 more) | **CLI** |
 | S3 Suite generation | Write a 5-test page-object suite | $0.74 | **$0.62** | Both 15/15 over 3 repeats, same structure | **CLI** |
 
